@@ -1,0 +1,106 @@
+body {
+    font-family: 'Bangers', cursive;
+    font-size: 16px;
+    line-height: 1;
+    background-color: peachpuff;
+}
+
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+}
+
+input {
+    width: 100%;
+    text-align: center;
+    border: none;
+
+  }
+  
+
+.jumbotron {
+    text-align: center;
+    background-color: chocolate;
+    color: honeydew;
+    border-radius: 0;
+    border-bottom: 10px solid coral;
+}
+
+.lead {
+    white-space: pre-wrap;
+    font-size: 16px;
+    font-family: 'Bangers', cursive;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: papayawhip;
+    
+}
+
+.row {
+    white-space: pre-wrap;
+    height: 80px;
+    border-top: 1px solid papayawhip;;
+  }
+  
+  .hour {
+    background-color: #ffffff;
+    color: #000000;
+    border-top: 1px dashed #000000;
+  }
+  
+  .past {
+    background-color: rgba(90, 90, 90, 0.616) !important;
+    color: white;
+  }
+  
+  .present {
+    background-color: goldenrod !important; 
+    color: white !important;
+    
+  }
+  
+  .future {
+    background-color: #f3c68a !important;
+    color: white;
+  }
+  .btn-out-2 {
+    border-left: 1px solid gray;
+    background-color:chocolate;
+    color: white;
+    border-radius: 5px;
+  }
+  .btn-out-2 i:hover {
+    font-size: 20px;
+    transition: ease-in-out;
+    
+  }
+
+.saludo {
+    color: coral;
+    border-bottom: 2px ;
+}
+
+.form-control {
+    display: block;
+     width: 100%; 
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: coral;
+    background-color: papayawhip;
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+    transition: .15s ease-in-out,box-shadow .15s ease-in-out;
+}

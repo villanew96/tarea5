@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/3fa86fe3bf.js" crossorigin="anonymous"></script>
+    <title>Day Scheduler</title>
+</head>
+
+
+<body>
+    <header class="jumbotron">
+        <h1 class="display-3">Work Day Scheduler</h1>
+        <p class="lead">Plan Your Day!!!</p>
+        <p id="currentDay" class="lead"></p>
+        <div class="date" id="date">
+    </header>
+</div>
+
+<div class="container">
+    <h1 class="saludo" id="saludo">Task for today</h1>
+    <table style="width: auto;">
+        <tr id="row0">
+            <td>9:AM</td>
+            <td>
+                <input type="text" class="form-control input0" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour="0" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(0,9)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+        </tr>
+        <tr id="row1">
+            <td>10:AM</td>
+            <td>
+                <input type="text" class="form-control input1" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button  data-hour ="1" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(1,10)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+        </tr>
+        <tr id="row2">
+            <td>11:AM</td>
+            <td>
+                <input type="text" class="form-control input3" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour ="2" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(2,11)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+        </tr>
+        <tr id="row3">
+            <td>12:PM</td>
+            <td>
+                <input type="text" class="form-control input3" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour ="3" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(3,12)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+        </tr>
+        <tr id="row4">
+            <td>1:PM</td>
+            <td>
+                <input type="text" class="form-control input4" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour ="4" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(4,1)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+         </tr>
+         <tr id="row5">
+            <td>2:PM</td>
+            <td>
+                <input type="text" class="form-control input5" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour ="5" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(5,2)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+         </tr>
+         <tr id="row6">
+            <td>3:PM</td>
+            <td>
+                <input type="text" class="form-control input6" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour="6" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(6,3)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+         </tr>
+         <tr id="row7">
+            <td>4:PM</td>
+            <td>
+                <input type="text" class="form-control input7" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour="7" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(7,4)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+         </tr>
+         <tr id="row8">
+            <td>5:PM</td>
+            <td>
+                <input type="text" class="form-control input8" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour="8" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(8,5)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+         </tr>
+         <tr id="row9">
+            <td>6:PM</td>
+            <td>
+                <input type="text" class="form-control input9" placeholder="Que haras hoy?" aria-label="9 am" aria-describedat="button-addon2">
+            </td>
+            <td>
+                <button data-hour="9" class="btn-out-2 SaveBtn" type="button" id="SaveBtn" onclick="setTime=(9,6)">
+                    Save <i class="fas fa-paw"></i>
+                </button>
+            </td>
+         </tr>
+        </tr>
+    
+    </table>
+</div>
+
+
+    
+</body>
+<footer></footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="https://momentjs.com/downloads/moment.min.js"></script>
+<script src="script.js"></script>
+
+
+
+
+</html>
